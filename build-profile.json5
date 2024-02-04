@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/zhaojian/.ohos/config/auto_debug_ArkUI_com.flan.arkui_390086000108539689.cer",
+          "storePassword": "0000001B31F557431CCF2ECD802968720A04546418D3520B4D6B93D2E4FEF01CD4BAB2EFDC2192BCBD4B9D",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B2DAE2B79397709ADFDDC18CA8000D9220242DEADE19D26D5F683083463FB56E3B08796BB0C1A6A",
+          "profile": "/Users/zhaojian/.ohos/config/auto_debug_ArkUI_com.flan.arkui_390086000108539689.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/zhaojian/.ohos/config/auto_debug_ArkUI_com.flan.arkui_390086000108539689.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
